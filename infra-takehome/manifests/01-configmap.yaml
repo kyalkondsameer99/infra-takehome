@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: replica-limit
+  namespace: policy-config
+data:
+  maxReplicas: "5"
