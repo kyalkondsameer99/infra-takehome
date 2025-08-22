@@ -67,7 +67,7 @@ This creates:
 
 ## Testing
 
-The grader will apply this manifest; it must be blocked:
+Apply this manifest, it must be blocked:
 
 ```yaml
 apiVersion: apps/v1
