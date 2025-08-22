@@ -1,4 +1,4 @@
-#  — Cluster-wide cap on Deployment replicas (CEL ValidatingAdmissionPolicy)
+#  Cluster-wide cap on Deployment replicas (CEL ValidatingAdmissionPolicy)
 
 This enforces a cluster-wide limit of 5 replicas per Deployment using Kubernetes built-in ValidatingAdmissionPolicy (CEL). Any Deployment CREATE/UPDATE with `spec.replicas > 5` is denied at admission time. The limit lives in a ConfigMap so it's easy to change.
 
