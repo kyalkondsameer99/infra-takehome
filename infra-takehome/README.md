@@ -41,7 +41,8 @@ A running kuberenetes cluster.
 ```bash 
 kubectl api-resources | grep -i ValidatingAdmissionPolicy 
 ```
-to verify that ValidatingAdmissionPolicy and ValidatingAdmissionPolicyBinding are present in your cluster’s API resources before applying the manifests.
+to verify that ValidatingAdmissionPolicy and ValidatingAdmissionPolicyBinding are present
+in your cluster’s API resources before applying the manifests.
 
 
 You should see both validatingadmissionpolicies and validatingadmissionpolicybindings.
